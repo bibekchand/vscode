@@ -1,0 +1,17 @@
+.table1{
+    background-color: green;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    width: 3000px;
+    height: 1000;
+}
+.main{
+    background-color: red;
+    height: 2000px;
+    width: 300px;
+    color: thistle;
+
+}

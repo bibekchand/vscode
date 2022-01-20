@@ -5,4 +5,15 @@
 .yesto{
     background-color: red;
     color: black;
+#first {
+  background-color: white;
+  background-image: -moz-element();
+  color: black;
+}
+#second {
+  background-color: red;
+}
+* {
+    margin: 10px 50px 20px;
+    padding: 10px 50px 20px;
 }
