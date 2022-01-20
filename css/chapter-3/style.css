@@ -1,0 +1,9 @@
+.content{
+    background: tomato;
+    height: 423px;
+    width: 345px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
