@@ -1,0 +1,44 @@
+<!-- This chapter deals with fonts & display -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts and Display</title>
+    <style>
+        *{
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .box1{
+            background-color: red;
+             border: 3px;
+            width: 300px;
+            height: 300px; 
+            border-style: ridge;
+            display: inline-block;
+            /* display: none; */ (element is hidden)
+            /* in inline display option width and height is not allowed */
+            /* visibility: hidden; */ (hidden but not gone.)
+        }
+        .box2{
+            background-color: blue;
+            border: 3px;
+            width: 300px;
+            height: 300px;
+            border-style: ridge;
+            display: inline-block;            
+            /* setting height and  width in inline display is not allowed but in inline block it is supported*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><font color='blue' size='7'>This is chapter 1</font></h1>
+    </header>
+    <div class="box1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, veniam quisquam.</div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nihil!</div>
+</body>
+</html>

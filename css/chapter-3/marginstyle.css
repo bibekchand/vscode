@@ -10,3 +10,21 @@
     margin: 30px;
     height: 40px;
 }
+.help{
+    /* background-color: green; */
+    height: 50px;-
+    width: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
+  .nope{
+    border: 3px;
+    height: 40px;
+    width: 10px;
+    border-color: chocolate;
+    border-style: groove;
+    margin: 3px;
+    box-sizing: border-box;
+
+  }
