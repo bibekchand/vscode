@@ -8,10 +8,10 @@ b = 2
 
 
 def fun2(a, b):
-    print('average=', (a+b)/2)
-    return
+    average = (a+b)
+    print(average)
 
 
-fun2(a, b)
+print(fun2(a, b))
 v = fun2(a, b)
-v
+print(v)
